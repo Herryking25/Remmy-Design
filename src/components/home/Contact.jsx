@@ -24,14 +24,14 @@ const Contact = () => {
                     <div className="space-y-6">
                         <div>
                             <h4 className="text-white font-bold mb-1">Email</h4>
-                            <p className="text-secondary">hello@remmy.design</p>
+                            <p className="text-secondary">remmyyoungkay@gmail.com</p>
                         </div>
                         <div>
                             <h4 className="text-white font-bold mb-1">Socials</h4>
                             <div className="flex gap-4 text-secondary">
-                                <a href="#" className="hover:text-primary transition-colors">LinkedIn</a>
-                                <a href="#" className="hover:text-primary transition-colors">Twitter</a>
-                                <a href="#" className="hover:text-primary transition-colors">Behance</a>
+                                <a href="https://www.linkedin.com/in/remmyyoung" className="hover:text-primary transition-colors">LinkedIn</a>
+                                <a href="https://x.com/Vibekay" className="hover:text-primary transition-colors">Twitter</a>
+                                {/* <a href="#" className="hover:text-primary transition-colors">Behance</a> */}
                             </div>
                         </div>
                     </div>
