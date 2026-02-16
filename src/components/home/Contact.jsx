@@ -47,11 +47,11 @@ const Contact = () => {
                     <form className="space-y-6" onSubmit={handleSubmit}>
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium text-secondary mb-2">Name</label>
-                            <input type="text" id="name" className="w-full bg-surface border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors" placeholder="John Doe" />
+                            <input type="text" id="name" className="w-full bg-surface border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors" placeholder="Your Name" />
                         </div>
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium text-secondary mb-2">Email</label>
-                            <input type="email" id="email" className="w-full bg-surface border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors" placeholder="john@example.com" />
+                            <input type="email" id="email" className="w-full bg-surface border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors" placeholder="Your Email" />
                         </div>
                         <div>
                             <label htmlFor="message" className="block text-sm font-medium text-secondary mb-2">Message</label>
