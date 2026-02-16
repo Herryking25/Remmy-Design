@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import Button from '../ui/Button';
-import remmy from '../../assets/images/remmy.png';
 
 const Hero = () => {
     return (
@@ -11,12 +10,12 @@ const Hero = () => {
                 <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-[128px]" />
             </div>
 
-            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center z-10">
+            <div className="max-w-4xl mx-auto px-6 flex flex-col items-center justify-center text-center z-10">
                 <motion.div
-                    initial={{ opacity: 0, x: -50 }}
-                    animate={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
-                    className="text-left"
+                    className="flex flex-col items-center"
                 >
                     <span className="inline-block py-1 px-3 rounded-full bg-surface border border-white/10 text-sm text-secondary mb-6">
                         👋 Welcome to my portfolio
@@ -27,11 +26,11 @@ const Hero = () => {
                         I <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Design</span> Digital Experiences.
                     </h1>
 
-                    <p className="text-lg text-secondary max-w-lg mb-8 leading-relaxed">
+                    <p className="text-lg text-secondary max-w-2xl mb-8 leading-relaxed">
                         A passionate UI/UX and Graphic Designer dedicated to crafting intuitive, beautiful, and user-centric interfaces that solve real problems.
                     </p>
 
-                    <div className="flex flex-row gap-4">
+                    <div className="flex flex-row gap-4 justify-center">
                         <Button variant="primary" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
                             View Projects
                         </Button>
@@ -39,21 +38,6 @@ const Hero = () => {
                             Contact Me
                         </Button>
                     </div>
-                </motion.div>
-
-                <motion.div
-                    initial={{ opacity: 0, x: 50 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.6, delay: 0.2 }}
-                    className="relative"
-                >
-                    <div className="relative z-10 rounded-3xl overflow-hidden border-2 border-white/5 bg-surface/50 backdrop-blur-sm shadow-2xl">
-                        <img src={remmy} alt="Remmy - UI/UX Designer" className="w-full h-auto object-cover" />
-                    </div>
-
-                    {/* Decorative elements behind image */}
-                    <div className="absolute -top-10 -right-10 w-64 h-64 bg-primary/20 rounded-full blur-[64px] -z-10" />
-                    <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-accent/20 rounded-full blur-[64px] -z-10" />
                 </motion.div>
             </div>
 

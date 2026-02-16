@@ -10,14 +10,11 @@ const About = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
-                    className="hidden md:block"
+                    className="w-full max-w-md mx-auto md:max-w-none"
                 >
-                    {/* Placeholder for Profile Image */}
                     <div className="aspect-square rounded-2xl bg-surface border-2 border-white/5 overflow-hidden relative group">
-                        <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                        <div className="w-full h-full flex items-center justify-center text-secondary">
-                            <span className="text-lg"><img src={remmy} alt="" /></span>
-                        </div>
+                        <img src={remmy} alt="Remmy" className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105" />
+                        <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
                     </div>
                 </motion.div>
 
