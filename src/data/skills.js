@@ -9,6 +9,6 @@ export const skills = [
     // },
     {
         category: "Graphic Design",
-        items: ["Photoshop", "Illustrator", "Branding", "Logo Design", "Typography", "Layout"]
+        items: ["Photoshop", "Illustrator", "Canva", "Branding", "Logo Design", "Typography", "Layout"]
     }
 ];
