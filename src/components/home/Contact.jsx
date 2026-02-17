@@ -30,7 +30,7 @@ const Contact = () => {
                             <h4 className="text-white font-bold mb-1">Socials</h4>
                             <div className="flex gap-4 text-secondary">
                                 <a href="https://www.linkedin.com/in/remmyyoung" className="hover:text-primary transition-colors">LinkedIn</a>
-                                <a href="https://x.com/Vibekay" className="hover:text-primary transition-colors">Twitter</a>
+                                <a href="https://x.com/Vibekhay" className="hover:text-primary transition-colors">Twitter</a>
                                 {/* <a href="#" className="hover:text-primary transition-colors">Behance</a> */}
                             </div>
                         </div>

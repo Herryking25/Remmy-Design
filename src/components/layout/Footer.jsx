@@ -18,7 +18,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/remmyyoung" className="text-secondary hover:text-white transition-colors">
                         <Linkedin size={20} />
                     </a>
-                    <a href="https://x.com/Vibekay" className="text-secondary hover:text-white transition-colors">
+                    <a href="https://x.com/Vibekhay" className="text-secondary hover:text-white transition-colors">
                         <Twitter size={20} />
                     </a>
                     <a href="remmyyoungkay@gmail.com" className="text-secondary hover:text-white transition-colors">
