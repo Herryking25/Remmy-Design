@@ -44,7 +44,7 @@ const About = () => {
                             <div className="w-2 h-2 mt-2 rounded-full bg-accent mr-4" />
                             <div>
                                 <h4 className="text-white font-bold">Graphic Designer</h4>
-                                <p className="text-secondary text-sm">Creative Agency • 2018 - 2021</p>
+                                <p className="text-secondary text-sm">Creative Agency • 2018 - Present</p>
                             </div>
                         </div>
                     </div>

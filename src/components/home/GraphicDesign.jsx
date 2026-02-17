@@ -17,10 +17,10 @@ const graphicDesignDetails = [
         title: "Branding",
         description: "Developing cohesive visual identities that resonate with audiences."
     },
-    {
-        title: "Logo Design",
-        description: "Crafting memorable, timeless marks as the cornerstone of identity."
-    },
+    // {
+    //     title: "Logo Design",
+    //     description: "Crafting memorable, timeless marks as the cornerstone of identity."
+    // },
     {
         title: "Typography",
         description: "Mastering type hierarchy to enhance readability and visual impact."
