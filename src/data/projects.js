@@ -1,7 +1,7 @@
 import foodApp from '../assets/images/Food-App.png';
 import farmland from '../assets/images/Farmland.png';
 import nearWallet from '../assets/images/near-wallet.png';
-import Talenttribe from '../assets/images/Talenttribe.png';
+import Talenttribe from '../assets/images/talenttribe.png';
 
 export const projects = [
     {
@@ -64,7 +64,7 @@ export const projects = [
         role: "Lead Designer",
         duration: "1 Month",
         overview: "Specifically founded to transform the local tech narrative from casual networking into a powerhouse of practical, employable innovation.",
-        problem: "created to solve the local tech-ecosystem gap where talent development was defined more by motivational gatherings than by hard, deployable skills.",
+        problem: "Created to solve the local tech-ecosystem gap where talent development was defined more by motivational gatherings than by hard, deployable skills.",
         solution: " Talent Tribe established a structured, decentralised technical funnel to turn raw raw interest into employable industry talent.",
         results: "Oyo Talent Tribe transformed a motivational tech scene into a regional pipeline that trained over 400 builders and launched AI-driven software solutions. "
     }
