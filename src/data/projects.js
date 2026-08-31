@@ -1,6 +1,7 @@
 import foodApp from '../assets/images/Food-App.png';
 import farmland from '../assets/images/Farmland.png';
 import nearWallet from '../assets/images/near-wallet.png';
+import Talenttribe from '../assets/images/Talenttribe.png';
 
 export const projects = [
     {
@@ -50,5 +51,21 @@ export const projects = [
         problem: "Buyers lacked access to critical data like soil quality and historical yield without visiting properties in person.",
         solution: "Designed property listing pages that highlight key metrics visually. Added interactive maps and a direct messaging system for inquiries.",
         results: "The platform facilitated over $5M in land transactions in its first quarter."
+    },
+    {
+        id: 4,
+        title: "Talent-Tribe Redesign",
+        category: "Web Design",
+        description: "A vibrant community and digital ecosystem hub designed to support, upskill, and connect tech talent in Oyo State, Nigeria",
+        image: Talenttribe,
+        tags: ["Web Design", "Tech Commuities", "UI/UX"],
+        link: "https://www.figma.com/proto/GumaL3Xc2fe4KObbyRebOh/Official-Website--Talent-Tribe-?node-id=620-238&t=NVbFtquQlbNrKo9c-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+        client: "Oyo Talent-tribe",
+        role: "Lead Designer",
+        duration: "1 Month",
+        overview: "Specifically founded to transform the local tech narrative from casual networking into a powerhouse of practical, employable innovation.",
+        problem: "created to solve the local tech-ecosystem gap where talent development was defined more by motivational gatherings than by hard, deployable skills.",
+        solution: " Talent Tribe established a structured, decentralised technical funnel to turn raw raw interest into employable industry talent.",
+        results: "Oyo Talent Tribe transformed a motivational tech scene into a regional pipeline that trained over 400 builders and launched AI-driven software solutions. "
     }
 ];
